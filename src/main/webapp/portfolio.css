@@ -1,0 +1,74 @@
+/* styles.css */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+img{
+    border-radius: 50%  ;
+}
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+main h2 {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+main h1 {
+    font-size: 2.5em;
+    margin: 10px 0;
+}
+
+main h3 {
+    font-size: 1.2em;
+    margin: 20px 0;
+}
+
+.buttons {
+    margin: 20px 0;
+}
+
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 5px;
+    font-size: 1em;
+}
+
+.btn-secondary {
+    background-color: gray;
+    color: white;
+}
+
+.social-links {
+    margin-top: 20px;
+}
+
+.social-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 1em;
+}
+
+.social-links a:hover {
+    text-decoration: underline;
+}
